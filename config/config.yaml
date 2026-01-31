@@ -175,6 +175,26 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
+    - id: "wsj"
+      name: "华尔街日报 (WSJ) - 市场与金融"
+      url: "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
+
+    - id: "cnbc"
+      name: "CNBC - 商业新闻"
+      url: "https://www.cnbc.com/id/10001147/device/rss/rss.html"
+
+    - id: "prnewswire"
+      name: "美通社 (PR Newswire) - 投资者关系"
+      url: "https://www.prnewswire.com/rss/news-releases-list.rss"
+
+    - id: "businesswire"
+      name: "Business Wire - 商业资讯"
+      url: "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeGVtYXw=="
+
+    - id: "hkex"
+      name: "香港交易所 (HKEX) - 上市公司讯息"
+      url: "https://www.hkex.com.hk/Services/RSS-Feeds/News-Releases?sc_lang=en"
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
