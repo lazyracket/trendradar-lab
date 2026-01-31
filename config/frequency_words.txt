@@ -171,9 +171,14 @@
 # 212越野车：补充北汽212、BJ212
 /212越野车|212越野|北汽\s*212|北京越野212|\bBJ212\b/ => 212越野车
 
-# 奇瑞：高置信度监测(不含iCAR)
+# 奇瑞：高置信度监测(中文+独特车型)
 [奇瑞]
-/奇瑞|奇瑞汽车|尹同跃|李学用|瑞虎|艾瑞泽|捷途|星途|奇瑞风云|\bChery\b|\bTiggo\b|\bArrizo\b|\bJetour\b|\bExeed\b/ => 奇瑞
+/奇瑞|奇瑞汽车|尹同跃|李学用|瑞虎|艾瑞泽|捷途|星途|奇瑞风云|\bTiggo\b|\bArrizo\b|\bJetour\b|\bExeed\b/ => 奇瑞
+
+# Chery英文：需要汽车上下文防止人名误报
+[奇瑞Chery]
++/\bChery\b/
++/奇瑞|汽车|auto|vehicle|car|SUV|automotive|automaker|sales|model|launch|export|factory|production|manufacturer|carmaker/
 
 # 奇瑞iCAR：低置信度品牌词,需要与奇瑞共现
 [奇瑞iCAR]
