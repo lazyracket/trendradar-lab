@@ -3735,6 +3735,9 @@ GPL-3.0 License
 ---
 
 ## Maintenance Log
+
+> Checked every ≤60 days to keep scheduled workflows active.
+
 | Date | Status | Note |
 |------|--------|------|
 | 2026-02-12 | OK | All **workflows** running normally |
