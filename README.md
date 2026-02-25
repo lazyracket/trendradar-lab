@@ -3742,3 +3742,5 @@ GPL-3.0 License
 |------|--------|------|
 | 2026-02-12 | OK | All **workflows** running normally |
 | 2026-02-25 | OK | All **workflows** running normally |
+
+> A [keepalive workflow](.github/workflows/keepalive.yml) runs monthly to auto-re-enable any workflow disabled due to inactivity.
